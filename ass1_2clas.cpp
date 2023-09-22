@@ -47,7 +47,7 @@ if((yy % 4 == 0 && yy % 100 != 0) || (yy % 400 == 0))
 
 int main()
 {
-  struct Date d;
+  Date d;
     d.init();
   d.acceptdateFromConsole();
   d.printDateOnConsole();
